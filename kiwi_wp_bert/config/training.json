@@ -1,0 +1,14 @@
+{
+    "output_dir": "kiwi_wp_bert/training_output",
+    "learning_rate": 2e-5,
+    "per_device_train_batch_size": 16,
+    "per_device_eval_batch_size": 16,
+    "num_train_epochs": 2,
+    "weight_decay": 0.01,
+    "eval_strategy": "epoch",
+    "save_strategy": "epoch",
+    "logging_strategy": "steps",
+    "logging_steps": 10,
+    "report_to": "tensorboard",
+    "logging_dir": "kiwi_wp_bert/training_logs"
+}
